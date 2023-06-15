@@ -1,0 +1,12 @@
+import random
+
+cadena1 = input("introduce una palabra: ")
+cadena2 = input("introduce otra palabra: ")
+
+aleat = random.random()
+if aleat <=0.5:
+    resultado = cadena1 + " " + cadena2
+else:
+    resultado = cadena2 + " " + cadena1
+    
+print("resultado:", resultado)
