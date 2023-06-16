@@ -1,0 +1,5 @@
+def inversa():
+  string=input("escribe una frase o palabra: ")
+  cadenaInvertida = string [:: - 1 ]
+  print( cadenaInvertida )
+inversa()
