@@ -1,0 +1,9 @@
+import random
+
+cadena1 = "Descubre nuestras innovadoras herramientas y servicios personalizados"
+emoji_list = ["😊", "🔥", "🌟", "❤️", "🎉", "👍", "🐶", "🍕", "⚡", "🌺"]
+emoji = random.choice(emoji_list)
+
+cadena_modificada = emoji.join([palabra.upper() for palabra in cadena1.split()])
+
+print("La cadena con palabras en mayúscula separadas por emoji:", cadena_modificada)
