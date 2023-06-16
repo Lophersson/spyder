@@ -1,0 +1,14 @@
+import random
+
+cadena1 = input("Introduce una cadena de caracteres: ")
+cadena_modificada = ""
+
+for caracter in cadena1:
+    if random.random() < 0.5:
+        caracter_modificado = caracter.upper()
+    else:
+        caracter_modificado = caracter.lower()
+   
+    cadena_modificada += caracter_modificado
+
+print("La cadena con caracteres en mayúscula y minúscula:", cadena_modificada)
