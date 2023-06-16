@@ -1,0 +1,6 @@
+cadena1 = input("Introduce una cadena de caracteres: ")
+cadena2 = input("Introduce la letra que tu quieras:")
+contador = cadena1.count(cadena2)
+resultado = f"La cantidad de veces que aparece la letra '' es: {contador}"
+
+print(resultado)
