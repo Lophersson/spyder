@@ -1,0 +1,34 @@
+CONSULTA_1
+l = ['a', 'b', 'c', 'd', 'e']
+l2 =  [x for x in l]
+
+l2.remove('b')
+print("l=",l)
+print("l2=",l2)
+
+def copia (lista):
+    l2 = [x for x in lista]
+    return l2
+
+CONSULTA_2
+l = ['a', 'b', 'c', 'd', 'e']
+lista_copiada = copia (l)
+print("lista_copiada=", lista_copiada)
+l.remove('b')
+print("l=",l)
+print("lista_copiada=",lista_copiada)
+
+CONSULTA_3:
+def superficial_copia (lista):
+    return lista
+
+def deep_copia (lista):
+    l2 = [x for x in lista]
+    return l2
+
+l = ['a', 'b', 'c', 'd', 'e']
+lista_copiada = superficial_copia (l)
+#print("lista_copiada=", lista_copiada)
+l.remove('b')
+print("l=",l)
+print("lista_copiada=",lista_copiada)
