@@ -1,0 +1,10 @@
+1_CONSULTA ALEATORIA
+import random
+while True:
+    aleat=random.randint(1, 1000)
+    print("aleat=",aleat)    
+    if aleat==500:
+        break
+print("fin")
+
+2_NUEVA CONSULTA
