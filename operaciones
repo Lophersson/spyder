@@ -18,6 +18,11 @@ print(x)
 x = div(a,b)
 print(x)
 
+OPERACIONES LISTA
+lista=[1,2,3,4,5]
+opera=suma/len(lista)
+print(opera)
+
 OTRA COSA
 def my_function(food):
   for x in food:
