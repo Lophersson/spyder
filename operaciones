@@ -1,0 +1,30 @@
+def sumar (x,y):
+    return x+y
+def resta (x,y):
+    return x-y
+def mult (x,y):
+    return x*y
+def div (x,y):
+    return x/y
+
+a = 5
+b=10
+x = sumar(a,b)
+print(x)
+x = resta(a,b)
+print(x)
+x = mult(a,b)
+print(x)
+x = div(a,b)
+print(x)
+
+OTRA COSA
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+https://www.w3schools.com/python/default.asp
