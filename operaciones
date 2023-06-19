@@ -23,6 +23,19 @@ lista=[1,2,3,4,5]
 opera=suma/len(lista)
 print(opera)
 
+CONTADOR O LONGITUD DE ELEMENTOS
+def longitud(lista):
+    contador=0
+    for x in lista:
+        contador+=1
+    return contador
+    
+
+lista=[1,2,3,4,5]
+  
+x=longitud(lista)
+print(x)
+
 OTRA COSA
 def my_function(food):
   for x in food:
