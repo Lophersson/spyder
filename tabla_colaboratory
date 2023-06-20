@@ -19,3 +19,4 @@ import math
 x = crear_tabla({5:22344}, math.pi, "omega", "doritos", ("a", "b", "c"))
 print("x===================", x)
   
+https://colab.research.google.com/drive/17nF_-H3kjbiaCUyeWgcVKUvQAS5FiBpG?hl=es-419#scrollTo=2EQ2kVL8xHC1
