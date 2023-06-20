@@ -1,0 +1,17 @@
+def crear_tabla(turing, jobs, gates, stallman, torvals):
+  if not turing:
+    print(2)
+  else:
+    x = 2
+  print(False)
+  lista = ["pepe", "juan"]
+  fecha = "20/06/2023"
+  nombre = input("introduce un nombre: ")
+  if nombre == "Fernando":
+    return nombre
+  elif nombre == "Penedo":
+      return "apodo"
+  else:
+      print("si sé")
+  return "Fin"
+  
