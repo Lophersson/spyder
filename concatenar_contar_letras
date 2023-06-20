@@ -1,0 +1,58 @@
+def f(nombre):
+    nombre+=' González'
+    return nombre
+nombre = "Rosa"
+nombre = f(nombre)
+print(nombre)
+
+CONTAR LETRAS:
+lista = ["aa", "b", "camiseta"]
+for caracter in lista:
+    long = len(caracter)
+    total_palabras = len(lista)
+    print (long)
+
+CONTAR LAS PALABRAS MAYORES A CINCO LETRAS:
+lista = ["aa", "b", "camiseta"]
+contador=0
+for caracter in lista:
+    long = len(caracter)
+    total_palabras = len(lista)
+    #print (long)
+    if long > 5:
+        contador+=1
+print(contador)
+
+CONTAR LAS PALABRAS MAYORES A CINCO LETRAS Y DIME CÚALES SON:
+li=[]
+lista = ["aaaa", "b", "camiseta"]
+def f(lista,longitud):
+    contador=0
+    for caracter in lista:
+        long = len(caracter)
+        #total_palabras = len(lista)
+        #print (long)
+        if long > longitud:
+            li.append(caracter)
+            contador+=1
+    return contador, li
+#print(contador)
+print(f(lista,5))
+
+CONTAR LAS PALABRAS MAYOR A DOS LETRAS Y DIME CÚALES SON:
+li=[]
+lista = ["aaaa", "b", "camiseta"]
+def f(lista,longitud):
+    contador=0
+    for caracter in lista:
+        long = len(caracter)
+        #total_palabras = len(lista)
+        #print (long)
+        if long > longitud:
+            li.append(caracter)
+            contador+=1
+    return contador, li
+#print(contador)
+print(f(lista,2))
+
+
