@@ -1,0 +1,18 @@
+def invertir(s):
+    return s[::-1]
+
+lista = ['paco','manolo', 'pepe']
+x = list(map(invertir, lista[::-1]))
+print(x)
+
+#Programa en Python que invierte las palabras de la lista invertida
+def invertir(s):
+    return s[::-1]
+
+lista = ['paco','manolo', 'pepe']
+x = list(map(invertir, lista[::-1]))
+print(x)
+
+l = ['jhon', 'julio', 'diego', 'Fernando']
+lista_invertidos = [nombre[::-1] for nombre in l[::-1]]
+print(lista_invertidos)
