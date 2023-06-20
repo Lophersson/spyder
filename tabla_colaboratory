@@ -14,4 +14,8 @@ def crear_tabla(turing, jobs, gates, stallman, torvals):
   else:
       print("si sé")
   return "Fin"
+
+import math
+x = crear_tabla({5:22344}, math.pi, "omega", "doritos", ("a", "b", "c"))
+print("x===================", x)
   
