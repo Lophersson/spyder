@@ -1,0 +1,8 @@
+d = {90891:"wichita", 87501:"wisconsin", 76144:"utah"}
+t = ("oro", "plata", "zafiro")
+l = ["norte", "sur", "este"]
+c = set()
+fc = frozenset()
+
+x1= d[87501]
+print(x1)
