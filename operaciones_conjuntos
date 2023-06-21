@@ -1,0 +1,8 @@
+https://www.geeksforgeeks.org/intersection-function-python/
+
+set1 = {"maría", "ana", "david", "lidia", "humberto"}
+set2 = {"eduardo", "bernal", "ana", "maría"}
+set3 = {"genesis", "cristina", "jose", "julio"}
+ 
+print("set1 intersection set2 : ",
+      set1.intersection(set2))
