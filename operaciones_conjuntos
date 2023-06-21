@@ -6,3 +6,31 @@ set3 = {"genesis", "cristina", "jose", "julio"}
  
 print("set1 intersection set2 : ",
       set1.intersection(set2))
+
+
+set1 = {"maría", "ana", "david", "lidia"}
+set2 = {"eduardo", "bernal", "ana", "maría", "humberto"}
+set3 = {"genesis", "cristina", "jose", "julio", "humberto"}
+
+print("set1 intersection set2 : ",
+      set1.intersection(set2))
+ 
+print("set1 intersection set3 : ",
+      set1.intersection(set3))
+
+print("set2 intersection set3 : ",
+      set2.intersection(set3))
+
+print("set1 intersection set2 intersection set3 :",
+      set1.intersection(set2, set3))
+
+lista1 = ["lidia", "david", "eduardo"]
+lista2 = ["ana", "maría", "bernal"]
+lista3 = ["genesis", "cristina", "humberto"]
+lista4 = ["jose"]
+lista5 = ["julio"]
+
+conjunto = set(lista1).union(lista2).union(lista3).union(lista4).union(lista5)
+
+print(conjunto)
+
