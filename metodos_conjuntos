@@ -1,5 +1,6 @@
 https://docs.hektorprofe.net/python/metodos-de-las-colecciones/metodos-de-los-conjuntos/
 
+IS_SUB_SET
 lista1 = ["ana"]
 lista2 = ["ana", "maría", "bernal"]
 lista3 = ["genesis", "cristina", "humberto"]
@@ -31,3 +32,15 @@ c2 = set (lista2)
 #x = c1.issubset(c2)
 
 print(c2.issuperset(c1))
+
+IS_SUPER_SET
+subconjunto1 = ["lidia", "david", "eduardo", "perrito"]
+subconjunto2 = ["ana", "maría", "bernal", "gatito"]
+subconjunto3 = ["genesis", "cristina", "humberto", "perrito"]
+subconjunto4 = ["jose", "gatito"]
+subconjunto5 = ["julio", "perrito"]
+
+conjunto1 = set (subconjunto1)
+conjunto3 = set (subconjunto3)
+
+print(conjunto3.issubset(conjunto1))
