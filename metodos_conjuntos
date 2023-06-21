@@ -44,3 +44,5 @@ conjunto1 = set (subconjunto1)
 conjunto3 = set (subconjunto3)
 
 print(conjunto3.issubset(conjunto1))
+
+https://docs.hektorprofe.net/python/metodos-de-las-colecciones/metodos-de-los-conjuntos/
