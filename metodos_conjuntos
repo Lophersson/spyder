@@ -16,3 +16,18 @@ print(c1.issubset(c2))
 
 AÑADIDO:
 if c1.issubset(c2):
+
+ISSUPERSET
+lista1 = ["ana"]
+lista2 = ["ana", "maría", "bernal"]
+lista3 = ["genesis", "cristina", "humberto"]
+lista4 = ["jose"]
+lista5 = ["julio"]
+
+c = set()
+c = set([1,2, 'a'])
+c1 = set (lista1)
+c2 = set (lista2)
+#x = c1.issubset(c2)
+
+print(c2.issuperset(c1))
