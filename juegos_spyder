@@ -1,0 +1,24 @@
+Función para calcular el promedio de una lista de números:
+def promedio(lista):
+    suma = 0
+    for num in lista:
+        suma += num
+    prom = suma / len(lista)
+    return prom
+
+Función para calcular el área de un círculo:
+def area_circulo(radio):
+    pi = 3.1416
+    area = pi * (radio ** 2)
+    return area
+
+Función para verificar si una cadena es palíndromo (se lee igual de izquierda a derecha y viceversa):
+def es_palindromo(cadena):
+    i = 0
+    j = len(cadena) - 1
+    while i < j:
+        if cadena[i] != cadena[j]:
+            return False
+        i += 1
+        j -= 1
+    return True
