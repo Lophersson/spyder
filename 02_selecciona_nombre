@@ -1,0 +1,28 @@
+#SELECCIONA UN NOMBRE DE VARIAS LISTAS CUMPLIENDO VARIAS RESTRICCIONES:
+import random
+
+# Datos de ejemplo
+lista1 = ["lidia", "david", "eduardo"]
+lista2 = ["ana", "maria", "bernal"]
+lista3 = ["genesis", "cristina", "humberto"]
+lista4 = ["jose"]
+lista5 = ["julio"]
+
+# Concatenar todas las listas en una sola
+todos_los_nombres = lista1 + lista2 + lista3 + lista4 + lista5
+
+# Aplicar las restricciones
+nombre_final = None
+
+for nombre in todos_los_nombres:
+    if "a" in nombre: # Restricción 1: que contenga la letra "a"
+        if "o" not in nombre: # Restricción 2: que no contenga la letra "o"
+            if len(nombre) >= 5: # Restricción 3: que tenga más de 5 caracteres
+                nombre_final = nombre
+                break # salir del ciclo si se encontró un nombre que cumple las restricciones
+
+# Imprimir resultado
+if nombre_final:
+    print(f"El nombre seleccionado es {nombre_final}.")
+else:
+    print("No se encontró ningún nombre que cumpla las restricciones.")
