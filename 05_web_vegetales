@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body bgcolor=»#CEFF33»>
+
+<h1><center>VEGGIES A GOGÓ</center></h1><font size=»3″ face=»Comic Sans MS, Arial, MS Sans Serif»>
+
+<h2>Bienvenido a <b>Veggies a gogó</b> en donde encontrará un gran surtido de vegetales de su gusto<h2>
+
+</font><h3><center><u>¿Con que vegetal te identificas?</u><center></h3>
+<font size=»6″ face=»Comic Sans MS, Arial, MS Sans Serif»>
+
+Aquí podrás <i>comprar</i> el vegetal que más te gusta</font>
+
+<ol>
+<li>pepino
+<li>cebolla roja
+<li>brócoli
+<li>patata
+<li>apio
+<li>zucchini
+<li>puerro
+<li>espinaca
+<li>lombarda
+<li>pimiento rojo
+<li>tomate azul
+<ol>
+<script language="JavaScript">  var estado=true;  setTimeout("ver()",450);  function ver (){  estado=!estado;  if(estado==true)  texto1.style.visibility="visible";  else  texto1.style.visibility="hidden";  setTimeout("ver()",450);  }  </script><p align="center" id="texto1"  style="visibility:visible"><font face="Arial, Helvetica,  sans-serif size="400">¡OFERTA EN PEPINOS!</font></p>
+
+<p><center>veggiesagogo es una web dedica al mundo de los vegetales<center><p>
+</body>
+</html>
